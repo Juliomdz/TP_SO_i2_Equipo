@@ -1,3 +1,6 @@
 Magri Ludmila
 Martinez Franco Tobias
 Mendez Julio
+
+a-Para actualizar mi repo al estado del original, primero debo agregar el repo original como remoto de mi repositorio local con el comando "git remote add upstream https://github.com/xxxx" Y luego un "git pull upstream main" para descargar localmente la ultima version del repo original.
+b-No directamente, porque cada fork es independiente de otro fork y solo se asocia al repo oroginal. Primero debería BETA aceptar el pull request de GAMMA y luego ALFA debería hacer un "pull upstream".
