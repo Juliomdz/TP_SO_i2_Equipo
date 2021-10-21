@@ -1,0 +1,76 @@
+Magri Ludmila
+Martinez Franco Tobias
+Mendez Julio
+
+a-Para actualizar mi repo al estado del original, primero debo agregar el repo original como remoto de mi repositorio local con el comando "git remote add upstream https://github.com/xxxx" Y luego un "git pull upstream main" para descargar localmente la ultima version del repo original.
+b-No directamente, porque cada fork es independiente de otro fork y solo se asocia al repo oroginal. Primero debería BETA aceptar el pull request de GAMMA y luego ALFA debería hacer un "pull upstream".
+c-No directamente, porque cada fork es independiente de otro fork y solo se asocia al repo oroginal. Primero debería BETA aceptar el pull request de ALFA y luego GAMMA debería hacer un "pull upstream".
+d-Depende el caso, si generas un archivo totalmente nuevo no perdes datos, en caso de que edites archivos ya existentes y hagas el git pull, esos archivos se sobree escriben borrando todo lo modificado hasta el momento.
+e- 
+
+1-	git clone https://github.com/FrancoTMartinez/TP_SO_i2_Equipo.git
+        git add -A
+        git commit -m 'frok.txt added'
+        git push origin
+	Franco Tobias Martinez
+
+2-	git clone https://github.com/FrancoTMartinez/TP_SO_i2_Equipo.git
+	git status
+	git add -A
+	git status
+	git commit -m "commit Nombre IP y Hora"
+	git push origin
+	Julio Mendez
+
+3-	git clone https://github.com/FrancoTMartinez/TP_SO_i2_Equipo.git
+	git status
+	git add -A
+	git status
+	git commit -m "Agrego nombre apellido, ip y hora"
+	git push origin
+	Ludmila Magri
+
+4-	git add -A
+    	git commit -m 'nuevodatos.txt added'
+    	git push origin
+    	Franco Tobias Martinez
+
+5-	git remote add upstream https://github.com/FrancoTMartinez/TP_SO_i2_Equipo.git
+	git remote -v
+	git pull upstream main
+	Julio Mendez y Ludmila Magri
+
+5.4-	creo el archivo "respuesta_I2_Equipo104" con los apellidos y nombres
+    	git add -A
+    	git commit -m 'archivo de respuestas'
+    	git push origin
+    	Franco Tobias Martinez
+
+7- 	git pull upstream main
+	git add .
+	git commit -m "Actualizo archivo de respuestas con a y b"
+	git push -u origin
+	Realizo pull request desde GitHub para actualizar el repositorio original
+	Julio Mendez
+
+6-	Acepto el pull request de GAMMA, se hace un merge.
+ 	git pull origin
+    	edito archivo de respuestas
+    	git add -A
+    	git commit -m 'BETTA respuestas c-g'
+    	git push origin
+    	Franco Tobias Martinez
+
+7- 	git pull upstream main
+	git add .
+	git commit -m "Actualizo archivo de respuestas e"
+	git push -u origin
+	Realizo pull request desde GitHub para actualizar el repositorio original
+	Ludmila Magri
+
+
+
+	
+
+
+
